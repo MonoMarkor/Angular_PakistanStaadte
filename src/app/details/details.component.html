@@ -1,0 +1,68 @@
+<article>
+      <div class="container-heading">
+        <img
+          class="listing-photo"
+          [src]="citiesLocation?.photo"
+          alt="Exterior photo of {{ citiesLocation?.name }}"
+        />
+        <section class="listing-description">
+          <h2 class="listing-heading">
+            {{ citiesLocation?.name }}
+          </h2>
+          <p class="listing-location">
+            {{ citiesLocation?.province }}
+          </p>
+        </section>
+      </div>
+      <section class="listing-details">
+        <br />
+        <p class="listing-text">
+          {{ citiesLocation?.description1 }}
+        </p>
+        <p class="listing-text">
+          {{ citiesLocation?.description2 }}
+        </p>
+        <p class="listing-text">
+          {{ citiesLocation?.description3 }}
+        </p>
+        <br>
+      </section>
+      <br>
+      <section class="slider">
+        <swiper-container
+          navigation="true"
+          pagination="true"
+          pagination-clickable="true"
+          autoplay="true"
+          autoplay-delay="2500"
+          speed="1000"
+        >
+          <swiper-slide *ngFor="let in = index; let city; of: gal"
+            ><img src="{{ gal[in] }}" alt="image"
+          /></swiper-slide>
+        </swiper-container>
+      </section>
+      <br>
+      <div class="last-container">
+      <section class="listing-apply">
+        <br>
+        <h2 class="section-heading">Apply now to recieve booking details!</h2>
+        <form [formGroup]="applyForm" (submit)="submitApplication()">
+          <label for="first-name">First Name</label>
+          <input required minlength="2" id="first-name" type="text" formControlName="firstName" #fname ngModel="" />
+
+          <label for="last-name">Last Name</label>
+          <input required minlength="2" id="last-name" type="text" formControlName="lastName" />
+
+          <label for="email">Email</label>
+          <input required minlength="2"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" id="email" type="email" formControlName="email" />
+          <button type="submit" class="btn btn-dark" (click)="updateResponse()" [disabled]="!applyForm.valid">
+          Apply now</button>
+          <p id="from-rec"></p>
+        </form>
+      </section>
+      <section class="weather-part">
+        <app-weather [message]="weatherCity"></app-weather>
+      </section>
+      </div>
+    </article>

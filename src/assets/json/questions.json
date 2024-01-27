@@ -1,0 +1,175 @@
+{
+  "questions": [
+    {
+      "questionText": "Welche Stadt ist die Hauptstadt Pakistans??",
+      "options": [
+        {
+          "text": "Islamabad",
+          "correct": true
+        },
+        {
+          "text": "Karachi"
+        },
+        {
+          "text": "Lahore"
+        },
+        {
+          "text": "Punjab"
+        }
+      ],
+      "explanation": "Islamabad ist die Hauptstadt, Punjab ist ein Bundesstaat"
+    },
+    {
+      "questionText": "In welcher Stadt befindet sich die berühmte Badshahi-Moschee?",
+      "options": [
+        {
+          "text": "Islamabad"
+        },
+        {
+          "text": "Multan"
+        },
+        {
+          "text": "Peshawar"
+        },
+        {
+          "text": "Lahore",
+          "correct": true
+        }
+      ],
+      "explanation": "Die Badshahi Moschee („Kaiserliche Moschee“) befindet sich in der pakistanischen Stadt Lahore und ist nach der Shah Faisal Moschee in Islamabad die zweitgrößte Moschee Pakistans. Bis zu ihrer Errichtung im Jahr 1986 war sie die größte Moschee der Welt."
+    },
+    {
+      "questionText": "In welcher Stadt werden die Fußbälle für die Fifa-Weltmeisterschaft hergestellt?",
+      "options": [
+        {
+          "text": "Faislabad"
+        },
+        {
+          "text": "Sialkot",
+          "correct": true
+        },
+        {
+          "text": "Multan"
+        },
+        {
+          "text": "Hyderabad"
+        }
+      ],
+      "explanation": "Nahezu 70 % der weltweit hergestellten Fußbälle werden in Sialkot, Pakistan, produziert."
+    },
+    {
+      "questionText": "Wie heißt die bevölkerungsreichste Stadt Pakistans?",
+      "options": [
+        {
+          "text": "Lahore"
+        },
+        {
+          "text": "Karachi",
+          "correct": true
+        },
+        {
+          "text": "Faislabad"
+        },
+        {
+          "text": "Rawalpindi"
+        }
+      ],
+      "explanation": "Das gesamte Verwaltungsgebiet Karatschis hat 20,3 Millionen Einwohner (2023). Die Bevölkerungsdichte beträgt ca. 5.800 Einwohner je Quadratkilometer. In Berlin sind es zum Vergleich 3.800."
+    },
+    {
+      "questionText": "Welche ist die älteste Stadt in Pakistan und möglicherweise die älteste Stadt in Zentral- und Südasien?",
+      "options": [
+        {
+          "text": "Peshawar",
+          "correct": true
+        },
+        {
+          "text": "Multan"
+        },
+        {
+          "text": "Bahawalpur"
+        },
+        {
+          "text": "Taxilla"
+        }
+      ],
+      "explanation": "Peshawar also remained capital of Gandhara civilization and is among the oldest continuously inhabited cities of the country."
+    },
+    {
+      "questionText": "Welche beliebte Stadt in Pakistan liegt auf einer Höhe von fast 2300m?",
+      "options": [
+        {
+          "text": "Swat"
+        },
+        {
+          "text": "Nanga Parbat"
+        },
+        {
+          "text": "Mukeshpuri"
+        },
+        {
+          "text": "Murree",
+          "correct": true
+        }
+      ],
+      "explanation": "Murree ist eine Kleinstadt in der Provinz Punjab in Pakistan in der Region Galyat."
+    },
+    {
+      "questionText": "Welche pakistanische Großstadt hat Berge auf allen vier Seiten?",
+      "options": [
+        {
+          "text": "Taxila"
+        },
+        {
+          "text": "Quetta",
+          "correct": true
+        },
+        {
+          "text": "Multan"
+        },
+        {
+          "text": "Islamabad"
+        }
+      ],
+      "explanation": "Quetta is the capital and largest city of the Pakistani province of Balochistan. It is the tenth largest city in Pakistan, with a population of over 1.1 million. It is situated in the south-west of the country, lying in a valley surrounded by mountains on all sides."
+    },
+    {
+      "questionText": "Welches die wichtigste Hafenstadt des Landes ist?",
+      "options": [
+        {
+          "text": "Karachi",
+          "correct": true
+        },
+        {
+          "text": "Gawadar"
+        },
+        {
+          "text": "Islamabad"
+        },
+        {
+          "text": "Hamburg"
+        }
+      ],
+      "explanation": "Der Hafen von Karatschi ist einer der größten und verkehrsreichsten Tiefseehäfen Südasiens, in dem rund 60 % des nationalen Frachtaufkommens umgeschlagen werden. Er liegt in Karatschi, Pakistan."
+    },
+    {
+      "questionText": "Welche Stadt ist für ihre Textilprodukte bekannt?",
+      "options": [
+        {
+          "text": "Faislabad",
+          "correct": true
+        },
+        {
+          "text": "Taxila"
+        },
+        {
+          "text": "Sialkot"
+        },
+        {
+          "text": "Lahore"
+        }
+      ],
+      "explanation": "Nach der Unabhängigkeit Pakistans hat sich in Faisalabad speziell die Textilindustrie stark entwickelt."
+    }
+  ]
+}
